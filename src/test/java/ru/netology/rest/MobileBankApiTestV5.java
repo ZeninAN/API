@@ -4,9 +4,9 @@ import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
-public class MobileBankApiTestV5 {
+class MobileBankApiTestV5 {
     @Test
     void shouldReturnDemoAccounts() {
         // Given - When - Then
